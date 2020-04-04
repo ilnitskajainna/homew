@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/fon2.jpg);
+    background-position: center center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-size: initial;
+    font-size: 24px;
+    
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 90%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.main-menu {
+    text-align: right;
+    
+}
+.main-menu__list {
+    list-style: none;
+    word-spacing: 42px;
+    color: #ffffff;
+    padding-right: 130px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -41px;
+}
+.main-menu__item {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.main-menu__list_li {
+    display: inline;
+    font-size: 12px;
+}
+.main-menu__item--active {
+    border-bottom: 1px solid #ffffff;
+    padding: 2px;
+}
+.hamb-menu__button {
+    display: inline-block;
+    width: 22px;
+    height: 13px;
+    position: relative;
+    text-decoration: none;
+}
+.page-main__container {
+    position: relative;
+    
+}
+.cart-wrap__shadow-1 {
+    margin-left: -28px;
+    margin-top: -37px;
+   
+}
+.cart-wrap__shadow-2 {
+    margin-top: -316.5px;
+    margin-left: -28px;
+}
+.cart-wrap__shadow-3 {
+    margin-top: -317px;
+    margin-left: -28px;
+}
+.cart-wrap__shadow-4 {
+    margin-top: -250px;
+    margin-left: 17px;
+}
+.cart-wrap__cros_1 {
+    margin-top: -5px;
+    margin-left: 89px;
+    border: 3px solid #ffffff;
+    
+}
+.cart-wrap__cros_2 {
+    margin-top: -48px;
+    margin-left: 152px;
+}
+.cart-wrap__cros_3 {
+    margin-top: -46px;
+    margin-left: 212px;
+}
+.cart-info__blok {
+    width: 249px;
+    height: 428px;
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: -410px;
+    margin-left: 505px;
+}
+.cart-info_new {
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    padding: 4px;
+    background-color: #FFA60D;
+    font-size: 15px;
+    margin-top: 43px;
+    margin-left: 37px;
+    margin-right: 170px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.cart-info_h1-2 {
+    color: blue;
+}
+
+.cart-info__h1 {
+    text-transform: uppercase;
+    font-family: ;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-left: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    line-height: 30px;
+}
+.cart-info_star {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.cart-info__rating-group__input {
+    display: none;
+}
+.cart-info__rating-group__label {
+    font-size: 8px;
+}
+.cart-info__rating-group__icon {
+    color: #7F7F7F;
+}
+
+.cart-info__rating-group__input:checked ~.cart-info__rating-group__label .cart-info__rating-group__icon {
+    color: black;
+}
+.cart-info__rating {
+    margin-top: -25px;
+    margin-left: 100px;
+}
+.cart-info__cost {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 7px;
+    margin-left: 35px;
+}
+.cart-info_size {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 18px;
+    margin-left: 35px;
+    color: #000000;
+}
+.cart-info__button-1 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 60px;
+    padding: 7px;
+    margin-left: 33px;
+    width: 118px;
+    font-size: 11px;
+    color: #ffffff;
+    background-color: #A200B8;
+    border: none;
+}
+.cart-info__button-1:hover {
+    background-color: #ffffff;
+    color: #A200B8;
+    border: 1px solid #A200B8;
+}
+.cart-info__button-2 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    border: 1px solid #000000;
+    color: #000000;
+    padding: 7px;
+    width: 118px;
+    margin-left: 33px;
+    margin-top: 5px;
+    background-color: #ffffff;
+}
+.cart-info__button-2:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: #A200B8;
+}
