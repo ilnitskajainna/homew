@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+body {
+    background-color: #3399CC;
+    height: 500px;
+    max-width: 97%;
+    border: 20px solid ;
+    border-color: #2B81AC;
+    height: 585px;
+    width: 1500px;
+}
+.container {
+   width: 800px;
+   max-width: 90%;
+   margin-left: 260px;
+}
+h1 {
+    font-size: 20px;
+    color:  #fff;
+    margin: 20px;
+    margin-left: 0px;
+}
+.container>ul>li {
+    text-align: center;
+}
+
+ul {
+    
+    list-style: none;
+    color: #fff;
+    font-size: 0px;
+    height: 450px;
+    box-sizing: border-box; 
+    background-color: #fff;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    border: 2px solid;
+    border-color: #fff;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    width: 25%;
+    box-sizing: border-box;
+    height: 25%;
+    padding-top: 25px;
+   }
+
+.tabl li:nth-child(1) {
+    background-color: #3399CC;
+    width: 50%;
+}  
+.tabl li:nth-child(2) {
+    background-color: #33CCCC;
+ 
+}  
+.tabl li:nth-child(3) {
+    background-color: #996699;
+   
+}  
+.tabl li:nth-child(4) {
+    background-color: #C24747;
+   
+}  
+.tabl li:nth-child(5) {
+    background-color: #E2674A;
+}  
+.tabl li:nth-child(6) {
+    background-color: #FFCC66;
+}  
+.tabl li:nth-child(7) {
+    background-color: #99CC99;
+}  
+.tabl li:nth-child(8) {
+    background-color: #669999;
+}  
+.tabl li:nth-child(9) {
+    background-color: #CC6699;
+    width: 50%;
+}  
+.tabl li:nth-child(10) {
+    background-color: #339966;
+}  
+.tabl li:nth-child(11) {
+    background-color: #666699;
+    width: 100%;
+}  
+ul>li:last-child {
+    width: 100%;
+    background-color: #669;
+}
+ul:hover {
+    background-color: #fff;
+}
+ul:hover li:not(:hover) {
+    opacity: 0.7;
+}
+.tabl:hover {
+    background-color: 0.5;
+    color: #fff5;
+    background-clip: border-box;
+}
+h2 {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-top: 20px;
+    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+   }
