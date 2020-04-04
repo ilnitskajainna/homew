@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #E5EEEE;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffff;
+}
+form {
+    background-image: url(./assets/img/fon.jpg);
+    background-repeat: no-repeat;
+    height: 498px;
+    text-align: center;
+    background-position: center center;
+    margin-top: 50px;
+    
+}
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+span {
+    color: #ffff;
+
+}
+.for>p {
+    padding-top: 56px;
+    font-size: 16px;
+    padding-left: -100px;
+    font-weight: 500;
+   
+}
+.for {
+    padding-right: 108px;
+    letter-spacing: 1px;
+    margin-top: -5px;
+}
+.for_2 {
+    padding-left: 25px;
+    opacity: .7;
+}
+.for_1 {
+    border-bottom: 2px solid #E66A64;
+}
+.pol {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 50px;
+    
+}
+.pol>input {
+    width: 260px;
+    height: 37px;
+    margin-top: 8px;
+    background: none;
+    border: 2px solid #9A84C7;
+}
+.pol>label {
+    margin-left: -185px;
+   
+}
+.pol_2 {
+    margin-top: -38px;
+}
+.pol_2>label {
+    margin-left: -188px;
+}
+
+button {
+    background: #23AE91; 
+    color: white;
+    border: none;
+    font-size: 17px;
+    width: 260px;
+    height: 43px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+.got>p {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 30px;
+    opacity: .5;
+   
+}
+#i1 {
+    
+    margin-top: 50px;
+    border-bottom: 1px solid;
+    width: 110px;
+    padding: 3px;
+    
+}
+#i2 {
+    border-bottom: 1px solid;
+    width: 110px;
+    padding: 3px;
+    margin-left: 30px;
+}
+.chec_text {
+    font-size: 13px;
+    font-weight: 500;
+}
+.chec {
+    margin-right: 60px;
+    margin-top: 15px;
+}
+.superbutton:hover {
+    border: 2px solid #23AE91;
+    color: #23AE91;
+    background-color: white;
+}
+input[type="checkbox"]:checked  {
+    background-color: teal;
+    color: white;
+}
