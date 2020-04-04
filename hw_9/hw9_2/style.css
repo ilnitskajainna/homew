@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+   
+}
+body {
+    background-color: #464F54;
+    width: 90%;
+    max-width: 1199px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 1060px;
+    height: 752px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-top: 140px;
+   
+}
+@font-face {
+    font-family: Proxima Nova Condensed;
+    src: url(./fonts/ProximaNovaCondensedThin.woff);
+    src: url(./fonts/ProximaNovaCondensedThin.woff2);
+}
+
+.container>p {
+    text-transform: uppercase;
+    font-family: Proxima Nova Condensed;
+    src: url(./fonts/ProximaNovaCondensedThin.woff);
+    src: url(./fonts/ProximaNovaCondensedThin.woff2);
+    padding-top: 199px;
+    font-size: 20px;
+    padding-left: 125px;
+    letter-spacing: 6.78px;
+    color: #BDBDBD;
+}
+
+@font-face {
+    font-family: "ProximaNova-Bold";
+    src: url("./fonts/ProximaNovaBold.woff") ; 
+    src:  url("./fonts/ProximaNovaBold.woff2") ; 
+}
+.container>h1 {
+    text-transform: uppercase;
+    font-family: "ProximaNova-Bold";
+    src: url(./fonts/ProximaNovaBold.woff);
+    src: url(./fonts/ProximaNovaBold.woff2);
+    font-size: 80px;
+    padding-top: 22px;
+    padding-left: 120px;
+    font-weight: 10px;
+    word-spacing: -2px;
+    font-stretch: extra-condensed;
+    letter-spacing: 3px;
+    color: #292929;
+}
+.title {
+    background-color: #181818;
+    width: 876px;
+    height: 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 255px;
+    margin-top: -825px;
+    color: #F5BB2C;
+    position: absolute right 0 0;
+    color: #636363;
+}
+.container {
+    box-shadow: -webkit-box-shadow: 1px 0px 14px 15px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 0px 14px 15px rgba(0,0,0,0.3);
+    box-shadow: 1px 0px 14px 15px rgba(0,0,0,0.3);
+}
+.container>i {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #8D8D8D;
+    font-size: 30px;
+    margin-top: -7px;
+    padding-left: 120px;
+}
+.icons {
+    width: 813px;
+    height: 76px;
+    background-color: #F8BE2C;
+    display: flex;
+    flex-direction: row;
+    margin-left: 320px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+   align-content: center;
+}
+.icons>li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    color: #FADD95;
+    font-size: 40px;
+   padding-left: 20px;
+   
+}
+li a {
+    color: #FADD95;
+    
+}
+a:hover {
+    color: white;
+}
+.text p {
+    text-align: justify;
+    font-size: 30px; width: 805px;
+    padding-left: 125px;
+    padding-top: 45px;
+    word-spacing: -2px;
+    line-height: 40px;
+}
+#ppp {
+    margin-top: -21px
+}
+input {
+    outline: 0 none;
+    background-color: transparent;
+    border: none;
+    color: #FEFEFE;
+    border-bottom: 2px solid white;
+    font-size: 50px;
+    height: 80px;
+    font-stretch: ultra-condensed;
+    padding-top: 58px;
+    margin-left: -70px;
+    width: 813px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label {
+    text-transform: uppercase;
+    font-family: Proxima Nova Condensed;
+    src: url(./fonts/ProximaNovaCondensedThin.woff);
+    src: url(./fonts/ProximaNovaCondensedThin.woff2);
+    font-size: 16px;
+    padding-top: 50px;
+    padding-left: 63px;
+    letter-spacing: 7px;
+    font-weight: 20px;
+}
