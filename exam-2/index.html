@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        @font-face{font-display:auto;font-family:Gotham-Bold;src:url(assets/fonts/gothambold1.woff) format("woff"),url(assets/fonts/gothambold1.woff2) format("woff2");font-weight:400;font-style:normal}
+        @font-face{font-display:auto;font-family:Gotham-Book;src:url(assets/fonts/GothamBook.woff) format("woff"),url(assets/fonts/GothamBook.woff2) format("woff2");font-weight:400;font-style:normal}
+    </style>
+    <link rel="preload" href="assets/css/style.min.css" as="style" onload="this.rel='stylesheet'">
+    <link href="assets/css/lightbox.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/jquery.bxslider.min.css">
+    <link rel="icon" type="image/gif" href="/assets/favicon/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.72.0/dist/L.Control.Locate.min.css" />
+    <title>monticello</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="blok1 lazy">
+            <header class="menu">
+                <div class="container">
+                    <div class="logo">
+                        <img src="./assets/img/logo.png" alt="logo">
+                    </div>
+                    <nav id="men" class="l-mnu elips">
+                        <ul>
+                            <li class="active"><a href="#about">About Us</a></li>
+                            <li><a href="#gal">projects</a></li>
+                            <li><a href="#news">news</a></li>
+                            <li><a href="#contact">contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="svg">
+                        <ul >
+                            <li><a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a></li>
+                            <li><a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a></li>
+                            <li><a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <input type="checkbox" id="nav-toggle" hidden>  
+                    <nav class="nav">
+                        <label for="nav-toggle" class="nav-toggle" onclick></label>
+                            <ul>
+                                <li><a href="#about">About</a></li> 
+                                <li><a href="#gal">projects</a></li>
+                                <li><a href="#news">news</a></li>
+                                <li><a href="#contact">contact</a></li>
+                            </ul>
+                    </nav>
+                    <div class="mask-content"></div>
+                </div>
+            </header>
+            <div class="container cont1">
+                <div class="bl1 slider">
+                    <div>
+                        <h1>Simple & mordern</h1>
+                        <p>We make the world's beautiful every day</p>
+                    </div>
+                    <div>
+                        <h1>Simple & mordern</h1>
+                        <p>We make the world's beautiful every day</p>
+                    </div>
+                    <div>
+                        <h1>Simple & mordern</h1>
+                        <p>We make the world's beautiful every day</p>
+                    </div>
+                    <div>
+                        <h1>Simple & mordern</h1>
+                        <p>We make the world's beautiful every day</p>
+                    </div>
+                    <div>
+                        <h1>Simple & mordern</h1>
+                        <p>We make the world's beautiful every day</p>
+                    </div>
+                </div>
+                <div class="elips" id="ecl">
+                    <div class="elips_content"><a href="#about"></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="blok2" id="about">
+            <div class="bl2 container">
+                <h2 class="h2">what we do</h2>
+                <div class="bl2_wrap">
+                    <div class="img">
+                        <a href="#"><img class="lazy" data-src="./assets/img/img1.jpg" src="./assets/img/loading.gif" alt="img"></a> 
+                    </div>
+                    <div class="bl2_right">
+                        <span>One World</span>
+                        <h3>Trade Center</h3>
+                        <p>Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.</p>
+                        <a class="btn" href="#">more details</a>
+                        <div><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 436.303 436.303" style="enable-background:new 0 0 436.303 436.303;" xml:space="preserve">
+                                <path  d="M218.155,0C132.441,0,62.706,69.735,62.706,155.449c0,76.609,114.224,236.026,137.125,267.208
+                                    l5.108,6.939c3.073,4.201,8.013,6.707,13.217,6.707c5.209,0,10.144-2.5,13.199-6.671l5.126-6.975
+                                    c14.04-19.088,137.119-188.75,137.119-267.208C373.598,69.735,303.869,0,218.155,0z M218.155,235.524
+                                    c-37.126,0-67.33-30.204-67.33-67.336s30.204-67.336,67.33-67.336s67.33,30.204,67.336,67.336
+                                    C285.491,205.314,255.281,235.524,218.155,235.524z"/>
+                            </svg>
+                            New York City, United States - 1776 feet
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blok3">
+            <div class="bl3 container">
+                <div class="bl3_wrap">
+                    <div class="bl3_left">
+                        <span>International</span>
+                        <h3>Commerce Centre</h3>
+                        <p>Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.</p>
+                        <a class="btn" href="#">more details</a>
+                        <div>
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 436.303 436.303" style="enable-background:new 0 0 436.303 436.303;" xml:space="preserve">
+                                    <path  d="M218.155,0C132.441,0,62.706,69.735,62.706,155.449c0,76.609,114.224,236.026,137.125,267.208
+                                        l5.108,6.939c3.073,4.201,8.013,6.707,13.217,6.707c5.209,0,10.144-2.5,13.199-6.671l5.126-6.975
+                                        c14.04-19.088,137.119-188.75,137.119-267.208C373.598,69.735,303.869,0,218.155,0z M218.155,235.524
+                                        c-37.126,0-67.33-30.204-67.33-67.336s30.204-67.336,67.33-67.336s67.33,30.204,67.336,67.336
+                                        C285.491,205.314,255.281,235.524,218.155,235.524z"/>
+                                </svg>
+                            Hong Kong - 1588 Feet
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a href="#"><img class="lazy" data-src="./assets/img/img2.jpg" src="./assets/img/loading.gif" alt="img"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blok4 lazy" id="news">
+            <div class="bl4 container">
+                <h2 class="h2">latest news</h2>
+                <div class="slider2">
+                    <div class="slid">
+                        <a href="#"><img src="./assets/img/img3.jpg" alt="img3"></a>
+                        <div class="info">
+                            <h3>See The Unmatched Beauty Of The Great.</h3>
+                            <p>Free directories: directories are perfect for customers that are... searching for</p>
+                            <img src="./assets/img/icon1.jpg" alt="icon1">
+                            <div class="in">
+                                <div class="name">
+                                    Isaac Dunn
+                                </div>
+                                <div class="data">
+                                    09 Feb 2017
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slid">
+                        <a href="#"><img src="./assets/img/img4.jpg" alt="img3"></a>
+                        <div class="info">
+                            <h3>Effective Advertising Pointers.</h3>
+                            <p>Having a home based business is a wonderful asset to your life...</p>
+                            <img src="./assets/img/icon2.jpg" alt="icon2">
+                            <div class="in">
+                                <div class="name">
+                                    Dominic Freeman
+                                </div>
+                                <div class="data">
+                                    24 Apr 2017
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slid">
+                        <a href="#"><img src="./assets/img/img5.jpg" alt="img3"></a>
+                        <div class="info">
+                            <h3>Hypnotize Yourself Into The Ghost.</h3>
+                            <p>There are many things that are important to catalog design....</p>
+                            <img src="./assets/img/icon3.jpg" alt="icon3">
+                            <div class="in">
+                                <div class="name">
+                                    Alice Ward
+                                </div>
+                                <div class="data">
+                                    30 Dec 2017
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slid">
+                        <a><img alt="img3" src="./assets/img/img3.jpg"></a>
+                        <div class="info">
+                            <h3>See The Unmatched Beauty Of The Great.</h3>
+                            <p>Free directories: directories are perfect for customers that are... searching for</p>
+                            <img src="./assets/img/icon1.jpg" alt="icon1">
+                            <div class="in">
+                                <div class="name">
+                                    Isaac Dunn
+                                </div>
+                                <div class="data">
+                                    09 Feb 2017
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slid">
+                        <a><img  alt="img4" src="./assets/img/img4.jpg"></a>
+                        <div class="info">
+                            <h3>Effective Advertising Pointers.</h3>
+                            <p>Having a home based business is a wonderful asset to your life...</p>
+                            <img src="./assets/img/icon2.jpg" alt="icon2">
+                            <div class="in">
+                                <div class="name">
+                                    Dominic Freeman
+                                </div>
+                                <div class="data">
+                                    24 Apr 2017
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bloc5" id="gal">
+            <div class="bl5 container">
+                <h2 class="h2">gallery</h2>
+                <div class="galery" >
+                    <div class="gal_left">
+                        <div class="photo">
+                            <a data-lightbox="roadtrip" href="./assets/img/gallery1_bg.jpg">
+                                <img class="lazy" data-src="./assets/img/gallery1_bg.jpg" src="./assets/img/loading.gif" alt="img1">
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="gal_right">
+                        <div class="photo">
+                            <a data-lightbox="roadtrip" href="./assets/img/gallery2_lit.jpg">
+                                <img class="lazy" src="./assets/img/loading.gif" data-src="./assets/img/gallery2_bg.jpg" alt="img2">
+                            </a>
+                        </div>
+                        <div class="photo">
+                            <a data-lightbox="roadtrip" href="./assets/img/gallery3_lit.jpg">
+                                <img class="lazy" src="./assets/img/loading.gif" data-src="./assets/img/gallery3_bg.jpg" alt="img3">
+                            </a>
+                        </div>
+                        <div class="photo">
+                            <a data-lightbox="roadtrip" href="./assets/img/gallery4_lit.jpg">
+                                <img class="lazy" src="./assets/img/loading.gif" data-src="./assets/img/gallery4_bg.jpg" alt="img4">
+                            </a>
+                        </div>
+                        <div class="photo">
+                            <a data-lightbox="roadtrip" href="./assets/img/gallery5_lit.jpg">
+                                <img class="lazy" src="./assets/img/loading.gif" data-src="./assets/img/gallery5_bg.jpg" alt="img5">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn_wrap">
+                    <a class="btn" href="#">see more</a>
+                </div>
+            </div>
+        </div>
+        <div class="bloc6">
+            <div id="map">
+
+            </div>
+        </div>
+        <div class="bloc7 lazy">
+            <div class="bl7">
+                <div class="form" id="contact">
+                    <h2 class="h2">get in touch</h2>
+                    <div class="form_container">
+                        <div class="info">
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i>
+                                91 Nolan Extensions Suite 670
+                            </p>
+                            <p>
+                                <i class="fas fa-phone-alt"></i>
+                               <a href="tel:+0013568682454"> +001 356-868-2454</a>
+                            </p>
+                            <p>
+                                <i class="far fa-envelope"></i>
+                                <a href="mailto:gahuy93@gmail.com" target="blank">gahuy93@gmail.com</a>
+                            </p>
+                            <p>
+                                <i class="far fa-clock"></i>
+                                From 07:05AM to 19:30PM
+                            </p>
+                        </div>
+                        <form>
+                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Email">
+                            <div>
+                                <a href="#" class="btn">submit</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="bl7_container">
+                    <div class="logo">
+                        <img src="./assets/img/logo.png" alt="logo">
+                    </div>
+                    <div class="svg">
+                        <ul >
+                            <li><a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a></li>
+                            <li><a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a></li>
+                            <li><a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copi">
+                    <p>Copyrights &copy; 2017 Monticello </p>
+                    <span></span>
+                    <p>Made with &#10084; by Ga Huy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--СКРИПТЫ-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/lightbox.min.js"></script>
+    <script src="assets/js/jquery.bxslider.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.72.0/dist/L.Control.Locate.min.js" ></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.3.0/dist/leaflet.markercluster.js"></script>
+    <script src="assets/plugins/leaflet_map/TileLayer.Grayscale.js"></script>
+    <script src="assets/js/onload.min.js"></script>
+</body>
+</html>
