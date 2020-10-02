@@ -70,36 +70,46 @@ article {
 article .information {
   flex: 35%;
 }
-article .information .contact h2 {
+article .information .contact li {
+  list-style: none;
+}
+article .information .contact li a {
+  text-decoration: none;
+  color: #232323;
+}
+article .information .contact li a:hover {
+  color: #007ACC;
+}
+article .information .contact li h2 {
   text-transform: uppercase;
   color: #232323;
   padding-top: 30px;
   padding-left: 35px;
 }
-article .information .contact h3 {
+article .information .contact li h3 {
   padding-top: 20px;
   padding-left: 30px;
 }
-article .information .contact p {
+article .information .contact li p {
   padding-top: 10px;
   padding-left: 55px;
 }
-article .information .contact .social {
+article .information .contact li .social {
   padding-top: 15px;
   padding-left: 30px;
 }
-article .information .contact .social li {
+article .information .contact li .social li {
   list-style: none;
   display: inline;
   padding-left: 20px;
 }
-article .information .contact .social li a {
+article .information .contact li .social li a {
   border: 1px solid ;
   border-radius: 50px;
   font-size: 20px;
   padding: 7px;
 }
-article .information .contact .social li a:hover {
+article .information .contact li .social li a:hover {
   color: #007ACC;
 }
 article .about {
