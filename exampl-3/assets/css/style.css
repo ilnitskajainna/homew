@@ -1,0 +1,110 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  background-color: lightslategray;
+}
+.wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.wrapper .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #676767;
+}
+.wrapper .container #search {
+  background-color: #F3F3F3;
+  border: 1px solid #F3F3F3;
+  border-radius: 2px;
+  outline: none;
+}
+.wrapper .container select {
+  background-color: #E1E1E1;
+  border: 1px solid #E1E1E1;
+  border-radius: 2px;
+  outline: none;
+}
+.wrapper .container button {
+  outline: none;
+  background-color: lightseagreen;
+  border: 1px solid lightseagreen;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.wrapper .container button:hover {
+  cursor: pointer;
+  color: lightseagreen;
+  background-color: #fff;
+  border: 1px solid lightseagreen;
+}
+.film_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #666;
+  padding: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #A0A0BE;
+}
+.film_poster {
+  width: 200px;
+}
+.film_poster img {
+  width: 100%;
+}
+.film_info {
+  width: calc(100% - 230px);
+}
+.btn_wrap {
+  margin-top: 15px;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: lightseagreen;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+}
+.btn:hover {
+  color: lightseagreen;
+  background-color: #fff;
+  border: 1px solid lightseagreen;
+}
+.film_detail {
+  display: none;
+}
+.film_detail ul {
+  list-style: none;
+}
+#type {
+  display: none;
+}

@@ -37,6 +37,8 @@ body {
   text-align: center;
 }
 .container .foto img {
+  width: 200px;
+  height: 200px;
   overflow: hidden;
   border: 3px solid #3399CC;
   border-radius: 100px;
@@ -62,7 +64,8 @@ article {
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding: 0 auto;
+  padding-bottom: 70px;
+  margin-bottom: 50px;
   -webkit-box-shadow: 0px 6px 17px -1px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 6px 17px -1px rgba(0, 0, 0, 0.57);
   box-shadow: 0px 6px 17px -1px rgba(0, 0, 0, 0.57);
@@ -108,28 +111,52 @@ article .information .contact li .social li a {
   border-radius: 50px;
   font-size: 20px;
   padding: 7px;
+  color: #49A7D7;
 }
 article .information .contact li .social li a:hover {
   color: #007ACC;
+  transition: ease 0.6s;
 }
 article .about {
   flex: 65%;
   padding-top: 20px;
 }
-article .about ul {
+article .about .me {
+  padding-top: 13px;
+}
+article .about .skils,
+article .about .project {
+  padding-top: 13px;
+}
+article .about .skils ul,
+article .about .project ul {
   padding-top: 25px;
 }
-article .about ul li {
+article .about .skils ul li,
+article .about .project ul li {
   list-style: none;
   color: #232323;
 }
-article .about ul li li {
+article .about .skils ul li li,
+article .about .project ul li li {
   padding-left: 30px;
 }
-article .about ul li a {
+article .about .skils ul li a,
+article .about .project ul li a {
   text-decoration: none;
   color: #232323;
-}
-article .about ul li a:hover {
   color: #49A7D7;
+}
+article .about .skils ul li a:hover,
+article .about .project ul li a:hover {
+  color: #49A7D7;
+  transition: ease 0.6s;
+}
+@media screen and (max-width: 785px) {
+  .container .name {
+    text-align: center;
+  }
+  section {
+    text-align: center;
+  }
 }

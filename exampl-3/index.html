@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+    <title>Movie</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <input id="search" value="Man">
+
+            <select id="service">
+                <option value="">==Select service==</option>
+                <option value="OMDB">OMDB</option>
+                <option value="MDB">Movie Data Base</option>
+            </select>
+
+            <select id="type">
+                <option value="">==Movie type==</option>
+                <option value="movie">movie</option>
+                <option value="series">series</option>
+                <option value="episode">episode</option>
+            </select>
+
+            <button onclick="search($(this))">Search</button>
+        </div>
+        <div id="search_result"></div>
+        <div id="search_result2"></div>
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./assets/js/onload.min.js"></script>
+</body>
+</html>

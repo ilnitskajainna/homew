@@ -30,6 +30,8 @@ body {
         flex: 35%;
         text-align: center;
         img {
+            width: 200px;
+            height: 200px;
             overflow: hidden;
             border: 3px solid #3399CC;
             border-radius: 100px;
@@ -57,7 +59,8 @@ article {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 0 auto;
+    padding-bottom: 70px;
+    margin-bottom: 50px;
     -webkit-box-shadow: 0px 6px 17px -1px rgba(0,0,0,0.57);
         -moz-box-shadow: 0px 6px 17px -1px rgba(0,0,0,0.57);
         box-shadow: 0px 6px 17px -1px rgba(0,0,0,0.57);
@@ -99,41 +102,57 @@ article {
                             border-radius: 50px;
                             font-size: 20px;
                             padding: 7px;
+                            color: #49A7D7;
                             &:hover {
                                 color: #007ACC;
+                                transition: ease 0.6s;
                             }
                         }
                     }
                 }
             }
-            
-                
-            
-
         }
-        
     }
     .about {
         flex: 65%;
         padding-top: 20px;
-        ul {
-            padding-top: 25px;
-            li {
-                list-style: none;
-                color: #232323;
+        .me {
+            padding-top: 13px;
+        }
+        .skils, .project {
+            padding-top: 13px;
+            ul {
+                padding-top: 25px;
                 li {
-                    padding-left: 30px;
-                }
-                a {
-                    text-decoration: none;
+                    list-style: none;
                     color: #232323;
-                    &:hover {
-                        color: #49A7D7;
+                    li {
+                        padding-left: 30px;
                     }
+                    a {
+                        text-decoration: none;
+                        color: #232323;
+                        color: #49A7D7;
+                        &:hover {
+                            color: #49A7D7;
+                            transition: ease 0.6s;
+                        }
+                    }
+                   
                 }
-               
             }
         }
+        
     }
     
+}
+@media screen and (max-width:785px) {
+    .container {
+        .name {
+            text-align: center;
+        }
+    }
+    section {
+        text-align: center;
+    }
 }
