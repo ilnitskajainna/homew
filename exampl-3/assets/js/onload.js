@@ -30,7 +30,7 @@ function searchOMDB($btn) {
     if (!$btn.hasClass("disabled")) {
         $btn.addClass("disabled");
         $.ajax({
-            url: 'https://www.omdbapi.com/?apikey='+ OMDB_KEY + '&s=' + $("#search").val() + '&type=' + $('#type').val(),
+            url: 'http://www.omdbapi.com/?apikey='+ OMDB_KEY + '&s=' + $("#search").val() + '&type=' + $('#type').val(),
             type: 'get',
             dataType: 'json',
             success: function(json) {
@@ -78,7 +78,7 @@ function getDetail($lnk) {
         if(!$lnk.hasClass("disabled")) {
             $lnk.addClass("disabled");
             $.ajax({
-                url: 'https://www.omdbapi.com/?apikey=' + OMDB_KEY + '&i=' + $lnk.data("id"),
+                url: 'http://www.omdbapi.com/?apikey=' + OMDB_KEY + '&i=' + $lnk.data("id"),
                 type: 'get',
                 dataType: 'json',
                 success: function(json) {

@@ -137,10 +137,6 @@ article .about .project ul li {
   list-style: none;
   color: #232323;
 }
-article .about .skils ul li li,
-article .about .project ul li li {
-  padding-left: 30px;
-}
 article .about .skils ul li a,
 article .about .project ul li a {
   text-decoration: none;
@@ -149,7 +145,7 @@ article .about .project ul li a {
 }
 article .about .skils ul li a:hover,
 article .about .project ul li a:hover {
-  color: #49A7D7;
+  color: #007ACC;
   transition: ease 0.6s;
 }
 @media screen and (max-width: 785px) {
@@ -158,5 +154,8 @@ article .about .project ul li a:hover {
   }
   section {
     text-align: center;
+  }
+  .information .contact {
+    margin-left: -35px;
   }
 }
