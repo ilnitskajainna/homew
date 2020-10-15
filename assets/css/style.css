@@ -128,11 +128,14 @@ article .about .skils,
 article .about .project {
   padding-top: 13px;
 }
+article .about .skils ul li,
+article .about .project ul li {
+  list-style: none;
+}
 article .about .project ul {
   padding-top: 25px;
 }
 article .about .project ul li {
-  list-style: none;
   color: #232323;
 }
 article .about .project ul li a {
